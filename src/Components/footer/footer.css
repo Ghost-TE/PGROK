@@ -1,0 +1,101 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, black,#001524);
+    border-top: 2px solid #16ff00;
+    border-radius: 5px;
+  }
+  
+  @media (min-width: 640px) {
+    footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding: 30px 30px;
+      margin-top: 100px;
+    }
+  }
+
+  @media (min-width: 640px) {
+    footer {
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 30px 50px;
+      margin-top: 100px;
+    }
+  }
+
+  .container--1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .container--2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .container--3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+
+
+  @media(min-width:640px){
+    .container--1{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+      }
+    
+      .container--2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    
+      .container--3{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+      }
+  }
+
+  small{
+    color: white;
+    opacity: 0.8;
+    font-size: 0.8rem;
+  }
+
+  @media(min-width:640px){
+    
+  small{
+    color: white;
+    opacity: 0.8;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  }
+
+  .footer--logos{
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
